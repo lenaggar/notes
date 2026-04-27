@@ -1,0 +1,293 @@
+{
+  "main": {
+    "id": "7a85cc77833ac132",
+    "type": "split",
+    "children": [
+      {
+        "id": "e928a27c089a3b29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c2ef7b3dd2f983e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03.01_containers-fundamentals.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03.01_containers-fundamentals"
+            }
+          },
+          {
+            "id": "27031ca89e11a3cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03.02_docker-commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03.02_docker-commands"
+            }
+          },
+          {
+            "id": "b48bb394a45ed576",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03.03_container-lifecycle-management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03.03_container-lifecycle-management"
+            }
+          },
+          {
+            "id": "7b5679b9587c59c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03.04_building-images.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03.04_building-images"
+            }
+          },
+          {
+            "id": "7ad6c7272102a287",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03.05_security_and-container-best-practices.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03.05_security_and-container-best-practices"
+            }
+          },
+          {
+            "id": "670ccfd2ac4ccbc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03.06_docker-compose-and-capstone-project.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03.06_docker-compose-and-capstone-project"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab578a87bbd7e086",
+    "type": "split",
+    "children": [
+      {
+        "id": "c92c2f59d7d68dbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43548ab9fb8b638d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d06759116eddbf93",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e3e0ca6952bbb957",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "1f62a0c3924788f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dd11b70c3769138",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7977b02453edeffb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01.04_viewing-and-manipulating-files.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 01.04_viewing-and-manipulating-files"
+            }
+          },
+          {
+            "id": "bc06b2fc86969339",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01.04_viewing-and-manipulating-files.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 01.04_viewing-and-manipulating-files"
+            }
+          },
+          {
+            "id": "69c78db2bf45a1d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7ad0d1ae45ead6a8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5aa112401abb4b93",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01.04_viewing-and-manipulating-files.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 01.04_viewing-and-manipulating-files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "670ccfd2ac4ccbc6",
+  "lastOpenFiles": [
+    "03.05_security_and-container-best-practices.md",
+    "03.06_docker-compose-and-capstone-project.md",
+    "03.04_building-images.md",
+    "03.03_container-lifecycle-management.md",
+    "03.02_docker-commands.md",
+    "03.01_containers-fundamentals.md",
+    "Pasted image 20260418021942.png",
+    "Pasted image 20260418021726.png",
+    "Pasted image 20260418021707.png",
+    "Untitled.base",
+    "Pasted image 20260417235734.png",
+    "Pasted image 20260417235231.png",
+    "Pasted image 20260417234032.png",
+    "Pasted image 20260417233934.png",
+    "Overlay.png",
+    "02.07_filters-in-vim.md",
+    "02.03_parameter-expansion.md",
+    "02.06_functions-and-arrays.md",
+    "02.05_loops.md",
+    "02.04_conditionals.md",
+    "02.01_bash-scripting-fundamentals.md",
+    "01.10_dotfiles-and-customizations.md",
+    "02.02_bash-variables.md",
+    "01.08_basic-networking-and-ssh.md",
+    "01.05_users-groups-and-permissions.md",
+    "01.09_tmux.md",
+    "01.07_processes.md",
+    "01.06_input-output-and-pipes.md",
+    "01.04_viewing-and-manipulating-files.md",
+    "01.03_the-linux-file-system.md",
+    "01.01_linux-commands-fundamentals.md",
+    "01.02_installing-software-on-linux.md",
+    "01.03_the-linux-file-system.md^less-navigation.md"
+  ]
+}
