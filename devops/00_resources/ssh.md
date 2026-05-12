@@ -1,0 +1,16 @@
+- client (running `ssh`) --> server (runninf `sshd`)
+- default way of authentication is `password authentication`
+- another way of authentication is `key authentication`
+- client creates key pair (`public key`, and `private key`)
+- `public key` can only be used to *encrypt* messages (anyone can hold it)
+- `private key` can only be used to *decrypt* messages encoded by the matching `public key` (only the client holds it)
+- client copies the `public key` into the server's `~/.ssh/authorized_keys`
+- a typical ssh client/server handshake using key authentication looks like:
+	- client host `localbox` starts ssh connection: `$ ssh server-user@remotebox`
+	- `ssh` lets remotebox's `sshd` know that it would like to use the RSA authentication protocol
+	- remotebox's `sshd` generates a random number, and encrypts it using our `public key` that we copied over earlier to `~/.ssh/authorized_keys`
+	- remotebox sends this encrypted random number back to the `ssh` running on localbox
+	- `ssh` uses our private key to decrypt this random number, and then sends it back to remotebox
+	  saying in effect "See, I really do hold the matching private key; I was able to successfully decrypt your message!"
+	- `sshd` concludes that we should be allowed to log in, since we hold a matching private key
+- 
